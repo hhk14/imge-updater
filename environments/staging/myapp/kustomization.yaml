@@ -4,8 +4,8 @@ replicas:
   name: image-updater
   count: 2
 images:
-  name: hhk14/image-updater
-  newTag: 1.0.0
+  - name: hhk14/image-updater
+    newTag: 1.0.0
 resources:
   - ../../../base-app
 

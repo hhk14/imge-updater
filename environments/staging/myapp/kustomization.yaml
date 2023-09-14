@@ -4,7 +4,7 @@ replicas:
   - name: image-updater
     count: 2
 images:
-  - name: hhk14/image-updater
+  - name: hhk14/nginx
     newTag: 1.0.0
 resources:
   - ../../../base-app

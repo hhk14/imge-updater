@@ -1,8 +1,8 @@
 ---
 namespace: staging
 replicas: 
-  name: image-updater
-  count: 2
+  - name: image-updater
+    count: 2
 images:
   - name: hhk14/image-updater
     newTag: 1.0.0

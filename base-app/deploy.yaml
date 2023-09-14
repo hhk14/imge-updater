@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: image-updater
-          image: nginx:1.23-alpine
+          image: hhk14/nginx
           ports:
             - containerPort: 80
     

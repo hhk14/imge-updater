@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: image-updater
+spec:
+  selector:
+    matchLabels:
+      name: image-updater
+  replicas: 1
+  template:
+    metadata:
+      name: image-updater
+    spec:
+      containers:
+        - name: image-updater
+          image: nginx:1.23-alpine
+          ports:
+            - containerPort: 80
+    
+    

@@ -3,5 +3,5 @@ kind: Kustomization
 metadata:
   name: arbitary
 resources:
- - deployment.yaml
+ - deploy.yaml
  - ns.yaml
